@@ -10,7 +10,9 @@ The scene was originally created with Decentraland's [builder](https://builder.d
 
 ## Integration
 
-Currently, the test subgraph on the Mumbai network is being used:  https://thegraph.com/hosted-service/subgraph/fanszoid/fanszoid-tickets-mumbai (Qmet5aan4BBBVMANTmgwWiQrkXQK9Yir7SLuZEwxqqgv6X)
+Currently, the test subgraph on the Mumbai network is being used:  
+
+https://thegraph.com/hosted-service/subgraph/fanszoid/fanszoid-tickets-mumbai (Qmet5aan4BBBVMANTmgwWiQrkXQK9Yir7SLuZEwxqqgv6X)
 
 The relevant code for the subgraph integration is located at <kbd>/src/ticketGraph.ts</kbd>, the <kbd>eventId</kbd> within this file can be modified to specify a different event.
 
