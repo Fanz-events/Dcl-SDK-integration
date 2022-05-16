@@ -1,8 +1,9 @@
 {
   "display": {
-    "title": "Fanszoid Event",
-    "favicon": "favicon_asset",
-    "navmapThumbnail": "scene-thumbnail.png"
+    "title": "DCL SDK Fanz Integration Scene",
+    "description": "Decentraland SDK Fanz integration",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
   },
   "owner": "",
   "contact": {
@@ -12,37 +13,25 @@
   "main": "bin/game.js",
   "tags": [],
   "scene": {
-    "parcels": [
-      "0,0",
-      "0,1",
-      "1,0",
-      "1,1"
-    ],
+    "parcels": ["0,0"],
     "base": "0,0"
   },
-  "communications": {
-    "type": "webrtc",
-    "signalling": "https://signalling-01.decentraland.org"
-  },
-  "policy": {
-    "contentRating": "E",
-    "fly": true,
-    "voiceEnabled": true,
-    "blacklist": [],
-    "teleportPosition": ""
-  },
-  "source": {
-    "version": 1,
-    "origin": "builder",
-    "projectId": "5614e523-ff9f-4465-a242-94e2861e681a",
-    "point": {
-      "x": 0,
-      "y": 0
-    },
-    "rotation": "east",
-    "layout": {
-      "rows": 2,
-      "cols": 2
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
     }
-  }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {}
 }
